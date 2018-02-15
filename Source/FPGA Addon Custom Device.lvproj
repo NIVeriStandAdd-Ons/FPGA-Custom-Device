@@ -36,9 +36,8 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Resource Manager Libraries" Type="Folder">
-			<Item Name="RM.Shared.lvlib" Type="Library" URL="../../../VeriStand-FPGA-Resource-Manager/Source/Shared/RM.Shared.lvlib"/>
-			<Item Name="RM.Server.lvlib" Type="Library" URL="../../../VeriStand-FPGA-Resource-Manager/Source/Server/RM.Server.lvlib"/>
+		<Item Name="FPGA Resource Manager" Type="Folder">
+			<Item Name="FPGA Resource Manager.lvlib" Type="Library" URL="../../../VeriStand-FPGA-Resource-Manager/Source/FPGA Resource Manager.lvlib"/>
 		</Item>
 		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
 		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
@@ -143,7 +142,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="resource type.ctl" Type="VI" URL="../../../VeriStand-FPGA-Resource-Manager/Source/Shared/resource type.ctl"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

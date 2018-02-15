@@ -118,6 +118,33 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+	  <ButtonList>
+		<Button>
+			<ID>Open FPGA Resource Manager</ID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\fpga device.png</Path>
+			</Glyph>
+			<Type>Notification</Type>
+			<ReferencedGUID></ReferencedGUID>
+			<ButtonText>
+				<eng></eng>
+				<loc></loc>
+			</ButtonText>
+			<Caption>
+				<eng>Open FPGA Resource Manager</eng>
+				<loc>Open FPGA Resource Manager</loc>
+			</Caption>
+			<TipStrip>
+				<eng>Open FPGA Resource Manager</eng>
+				<loc>Open FPGA Resource Manager</loc>
+			</TipStrip>
+			<Documentation>
+				<eng></eng>
+				<loc></loc>
+			</Documentation>
+		</Button>
+		</ButtonList>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\ActionVIOnLoad.vi</Path>
