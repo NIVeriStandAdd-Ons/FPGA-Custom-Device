@@ -71,4 +71,7 @@
 			<Item Name="reservation info.ctl" Type="VI" URL="../SubVIs/reservation info.ctl"/>
 		</Item>
 	</Item>
+	<Item Name="set reserver.vi" Type="VI" URL="../set reserver.vi"/>
+	<Item Name="set reserver as null.vi" Type="VI" URL="../set reserver as null.vi"/>
+	<Item Name="get reserver.vi" Type="VI" URL="../get reserver.vi"/>
 </Library>
