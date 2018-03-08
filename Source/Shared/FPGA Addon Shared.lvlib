@@ -24,7 +24,7 @@
 		<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../../System Explorer/SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
 		<Item Name="DMA Settings.vi" Type="VI" URL="../DMA Settings.vi"/>
 		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
+		<Item Name="get fpga resource values for cd group.vi" Type="VI" URL="../get fpga resource values for cd group.vi"/>
 		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
 	</Item>
-	<Item Name="get fpga resource values for cd group.vi" Type="VI" URL="../get fpga resource values for cd group.vi"/>
 </Library>

@@ -51,27 +51,83 @@
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
+			<Item Name="set reserver as null.vi" Type="VI" URL="../set reserver as null.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Load New Bitfile.vi" Type="VI" URL="../Load New Bitfile.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Remove Item.vi" Type="VI" URL="../SubVIs/Remove Item.vi"/>
-			<Item Name="remove multiple dependent node references.vi" Type="VI" URL="../remove multiple dependent node references.vi"/>
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
+			<Item Name="variant to datatype string.vi" Type="VI" URL="../SubVIs/variant to datatype string.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="Channel Type.ctl" Type="VI" URL="../SubVIs/Channel Type.ctl"/>
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../SubVIs/Listbox Cluster.ctl"/>
 			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../SubVIs/Scalar Type Refs.ctl"/>
-			<Item Name="variant to datatype string.vi" Type="VI" URL="../SubVIs/variant to datatype string.vi"/>
 			<Item Name="DMA Reservation.ctl" Type="VI" URL="../SubVIs/DMA Reservation.ctl"/>
-			<Item Name="fpga resource.ctl" Type="VI" URL="../SubVIs/fpga resource.ctl"/>
 			<Item Name="reservation info.ctl" Type="VI" URL="../SubVIs/reservation info.ctl"/>
 		</Item>
+		<Item Name="Resource Manager" Type="Folder">
+			<Item Name="templates" Type="Folder">
+				<Item Name="rm.server.template.vit" Type="VI" URL="../Resource Manager/rm.server.template.vit"/>
+				<Item Name="rm client template.vit" Type="VI" URL="../Resource Manager/rm client template.vit"/>
+			</Item>
+			<Item Name="visualizer" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="table" Type="Folder">
+					<Item Name="build table.vi" Type="VI" URL="../Resource Manager/build table.vi"/>
+					<Item Name="resize table.vi" Type="VI" URL="../Resource Manager/resize table.vi"/>
+					<Item Name="resource entries to table.vi" Type="VI" URL="../Resource Manager/resource entries to table.vi"/>
+					<Item Name="update table.vi" Type="VI" URL="../Resource Manager/update table.vi"/>
+				</Item>
+				<Item Name="type defs" Type="Folder">
+					<Item Name="resource info.ctl" Type="VI" URL="../Resource Manager/resource info.ctl"/>
+					<Item Name="viz_command.ctl" Type="VI" URL="../Resource Manager/viz_command.ctl"/>
+					<Item Name="viz_show.ctl" Type="VI" URL="../Resource Manager/viz_show.ctl"/>
+					<Item Name="viz_state.ctl" Type="VI" URL="../Resource Manager/viz_state.ctl"/>
+					<Item Name="viz_type.ctl" Type="VI" URL="../Resource Manager/viz_type.ctl"/>
+				</Item>
+				<Item Name="UI" Type="Folder">
+					<Item Name="filters" Type="Folder">
+						<Item Name="mapped filter.vi" Type="VI" URL="../mapped filter.vi"/>
+						<Item Name="string match filter.vi" Type="VI" URL="../string match filter.vi"/>
+					</Item>
+					<Item Name="about page.vi" Type="VI" URL="../Resource Manager/about page.vi"/>
+					<Item Name="animate side opening.vi" Type="VI" URL="../Resource Manager/animate side opening.vi"/>
+					<Item Name="check status.vi" Type="VI" URL="../Resource Manager/check status.vi"/>
+					<Item Name="close visualizer.vi" Type="VI" URL="../Resource Manager/close visualizer.vi"/>
+					<Item Name="file an issue dialog.vi" Type="VI" URL="../Resource Manager/file an issue dialog.vi"/>
+					<Item Name="Format RIO Device Name.vi" Type="VI" URL="../Resource Manager/Format RIO Device Name.vi"/>
+					<Item Name="get string length in pixels.vi" Type="VI" URL="../Resource Manager/get string length in pixels.vi"/>
+					<Item Name="init and update listboxes.vi" Type="VI" URL="../Resource Manager/init and update listboxes.vi"/>
+					<Item Name="initialize visualizer UI.vi" Type="VI" URL="../Resource Manager/initialize visualizer UI.vi"/>
+					<Item Name="launch visualizer.vi" Type="VI" URL="../Resource Manager/launch visualizer.vi"/>
+					<Item Name="send visualization command.vi" Type="VI" URL="../Resource Manager/send visualization command.vi"/>
+					<Item Name="set vizualization menu.vi" Type="VI" URL="../Resource Manager/set vizualization menu.vi"/>
+					<Item Name="toggle listbox checks.vi" Type="VI" URL="../Resource Manager/toggle listbox checks.vi"/>
+					<Item Name="visualizer main.vi" Type="VI" URL="../Resource Manager/visualizer main.vi"/>
+				</Item>
+				<Item Name="visualizer globals.vi" Type="VI" URL="../Resource Manager/visualizer globals.vi"/>
+			</Item>
+			<Item Name="Client API" Type="Folder">
+				<Item Name="FPGA resource tree" Type="Folder">
+					<Item Name="get item status.vi" Type="VI" URL="../Resource Manager/Tree/get item status.vi"/>
+					<Item Name="initialize tree.vi" Type="VI" URL="../Resource Manager/Tree/initialize tree.vi"/>
+					<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../Resource Manager/Tree/reserve or unreserve tree entry.vi"/>
+					<Item Name="update tree.vi" Type="VI" URL="../Resource Manager/Tree/update tree.vi"/>
+					<Item Name="FPGA Resource Tree.ctl" Type="VI" URL="../Resource Manager/Tree/FPGA Resource Tree.ctl"/>
+					<Item Name="reservation type.ctl" Type="VI" URL="../Resource Manager/reservation type.ctl"/>
+				</Item>
+			</Item>
+			<Item Name="resource management" Type="Folder">
+				<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../Resource Manager/get all FPGA CD resources.vi"/>
+				<Item Name="initialize FPGA Custom Device.vi" Type="VI" URL="../Resource Manager/initialize FPGA Custom Device.vi"/>
+				<Item Name="get all FPGA CD references.vi" Type="VI" URL="../Resource Manager/get all FPGA CD references.vi"/>
+			</Item>
+			<Item Name="VS Ref Helpers" Type="Folder">
+				<Item Name="is reference null.vi" Type="VI" URL="../Resource Manager/is reference null.vi"/>
+			</Item>
+		</Item>
 	</Item>
-	<Item Name="set reserver.vi" Type="VI" URL="../set reserver.vi"/>
-	<Item Name="set reserver as null.vi" Type="VI" URL="../set reserver as null.vi"/>
-	<Item Name="get reserver.vi" Type="VI" URL="../get reserver.vi"/>
 </Library>
