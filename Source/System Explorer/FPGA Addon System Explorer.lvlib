@@ -37,20 +37,6 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="groups" Type="Folder">
-				<Item Name="RegMap" Type="Folder">
-					<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
-					<Item Name="Get Controls RegisterMap.vi" Type="VI" URL="../Get Controls RegisterMap.vi"/>
-					<Item Name="Get Indicators RegisterMap.vi" Type="VI" URL="../Get Indicators RegisterMap.vi"/>
-					<Item Name="Split RegisterMap into Controls and Indicators.vi" Type="VI" URL="../Split RegisterMap into Controls and Indicators.vi"/>
-				</Item>
-				<Item Name="DMAMap" Type="Folder">
-					<Item Name="Get Host to Target DMAMap.vi" Type="VI" URL="../Get Host to Target DMAMap.vi"/>
-					<Item Name="Get Target to Host DMAMap.vi" Type="VI" URL="../Get Target to Host DMAMap.vi"/>
-				</Item>
-				<Item Name="set group mapping info.vi" Type="VI" URL="../set group mapping info.vi"/>
-				<Item Name="get reservation property strings.vi" Type="VI" URL="../get reservation property strings.vi"/>
-			</Item>
 			<Item Name="Add Bitfile Dependency.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependency.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
@@ -81,7 +67,7 @@
 			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../SubVIs/Scalar Type Refs.ctl"/>
 			<Item Name="variant to datatype string.vi" Type="VI" URL="../SubVIs/variant to datatype string.vi"/>
 			<Item Name="DMA Reservation.ctl" Type="VI" URL="../SubVIs/DMA Reservation.ctl"/>
-			<Item Name="Register Reservation.ctl" Type="VI" URL="../SubVIs/Register Reservation.ctl"/>
+			<Item Name="fpga resource.ctl" Type="VI" URL="../SubVIs/fpga resource.ctl"/>
 			<Item Name="reservation info.ctl" Type="VI" URL="../SubVIs/reservation info.ctl"/>
 		</Item>
 	</Item>
