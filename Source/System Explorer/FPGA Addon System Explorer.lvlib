@@ -37,21 +37,21 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="DMAMap" Type="Folder">
-				<Item Name="Set Host to Target DMAMapvi.vi" Type="VI" URL="../Set Host to Target DMAMapvi.vi"/>
-				<Item Name="Set Target to Host DMAMapvi.vi" Type="VI" URL="../Set Target to Host DMAMapvi.vi"/>
-				<Item Name="Get Host to Target DMAMap.vi" Type="VI" URL="../Get Host to Target DMAMap.vi"/>
-				<Item Name="Get Target to Host DMAMap.vi" Type="VI" URL="../Get Target to Host DMAMap.vi"/>
+			<Item Name="groups" Type="Folder">
+				<Item Name="RegMap" Type="Folder">
+					<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
+					<Item Name="Get Controls RegisterMap.vi" Type="VI" URL="../Get Controls RegisterMap.vi"/>
+					<Item Name="Get Indicators RegisterMap.vi" Type="VI" URL="../Get Indicators RegisterMap.vi"/>
+					<Item Name="Split RegisterMap into Controls and Indicators.vi" Type="VI" URL="../Split RegisterMap into Controls and Indicators.vi"/>
+				</Item>
+				<Item Name="DMAMap" Type="Folder">
+					<Item Name="Get Host to Target DMAMap.vi" Type="VI" URL="../Get Host to Target DMAMap.vi"/>
+					<Item Name="Get Target to Host DMAMap.vi" Type="VI" URL="../Get Target to Host DMAMap.vi"/>
+				</Item>
+				<Item Name="set group mapping info.vi" Type="VI" URL="../set group mapping info.vi"/>
+				<Item Name="get reservation property strings.vi" Type="VI" URL="../get reservation property strings.vi"/>
 			</Item>
-			<Item Name="RegMap" Type="Folder">
-				<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
-				<Item Name="Get Controls RegisterMap.vi" Type="VI" URL="../Get Controls RegisterMap.vi"/>
-				<Item Name="Get Indicators RegisterMap.vi" Type="VI" URL="../Get Indicators RegisterMap.vi"/>
-				<Item Name="Set Controls RegisterMap.vi" Type="VI" URL="../Set Controls RegisterMap.vi"/>
-				<Item Name="Set Indicators RegisterMap.vi" Type="VI" URL="../Set Indicators RegisterMap.vi"/>
-				<Item Name="Split RegisterMap into Controls and Indicators.vi" Type="VI" URL="../Split RegisterMap into Controls and Indicators.vi"/>
-			</Item>
-			<Item Name="Add Bitfile Dependancy.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependancy.vi"/>
+			<Item Name="Add Bitfile Dependency.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependency.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="button state at index.vi" Type="VI" URL="../SubVIs/button state at index.vi"/>
@@ -70,6 +70,7 @@
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Remove Item.vi" Type="VI" URL="../SubVIs/Remove Item.vi"/>
+			<Item Name="remove multiple dependent node references.vi" Type="VI" URL="../remove multiple dependent node references.vi"/>
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
@@ -78,7 +79,10 @@
 			<Item Name="Channel Type.ctl" Type="VI" URL="../SubVIs/Channel Type.ctl"/>
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../SubVIs/Listbox Cluster.ctl"/>
 			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../SubVIs/Scalar Type Refs.ctl"/>
-			<Item Name="variant to datatype string.vi" Type="VI" URL="../../../../../Users/Tanner Blair/Desktop/troubleshooting/variant to datatype string.vi"/>
+			<Item Name="variant to datatype string.vi" Type="VI" URL="../SubVIs/variant to datatype string.vi"/>
+			<Item Name="DMA Reservation.ctl" Type="VI" URL="../SubVIs/DMA Reservation.ctl"/>
+			<Item Name="Register Reservation.ctl" Type="VI" URL="../SubVIs/Register Reservation.ctl"/>
+			<Item Name="reservation info.ctl" Type="VI" URL="../SubVIs/reservation info.ctl"/>
 		</Item>
 	</Item>
 </Library>
