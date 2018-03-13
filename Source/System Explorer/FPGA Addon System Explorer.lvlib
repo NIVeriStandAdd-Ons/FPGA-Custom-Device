@@ -61,6 +61,13 @@
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="variant to datatype string.vi" Type="VI" URL="../SubVIs/variant to datatype string.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
+			<Item Name="Available DMA FG.vi" Type="VI" URL="../../Shared/Available DMA FG.vi"/>
+			<Item Name="Available Registers FG.vi" Type="VI" URL="../../Shared/Available Registers FG.vi"/>
+			<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
+			<Item Name="DMA Settings.vi" Type="VI" URL="../../Shared/DMA Settings.vi"/>
+			<Item Name="get fpga resource values for cd group.vi" Type="VI" URL="../../Shared/get fpga resource values for cd group.vi"/>
+			<Item Name="Scalar Settings.vi" Type="VI" URL="../../Shared/Scalar Settings.vi"/>
+			<Item Name="assign FPGA resources.vi" Type="VI" URL="../assign FPGA resources.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../SubVIs/Listbox Cluster.ctl"/>
@@ -106,6 +113,7 @@
 					<Item Name="send visualization command.vi" Type="VI" URL="../Resource Manager/send visualization command.vi"/>
 					<Item Name="set vizualization menu.vi" Type="VI" URL="../Resource Manager/set vizualization menu.vi"/>
 					<Item Name="toggle listbox checks.vi" Type="VI" URL="../Resource Manager/toggle listbox checks.vi"/>
+					<Item Name="view system reservations.vi" Type="VI" URL="../Resource Manager/view system reservations.vi"/>
 					<Item Name="visualizer main.vi" Type="VI" URL="../Resource Manager/visualizer main.vi"/>
 				</Item>
 				<Item Name="visualizer globals.vi" Type="VI" URL="../Resource Manager/visualizer globals.vi"/>

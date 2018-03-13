@@ -18,13 +18,7 @@
 			<Item Name="Scalar Settings.ctl" Type="VI" URL="../Scalar Settings.ctl"/>
 			<Item Name="Scalar Type.ctl" Type="VI" URL="../Scalar Type.ctl"/>
 		</Item>
-		<Item Name="Available DMA FG.vi" Type="VI" URL="../Available DMA FG.vi"/>
-		<Item Name="Available Registers FG.vi" Type="VI" URL="../Available Registers FG.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="convert RegisterMap to FPGA Scalar.vi" Type="VI" URL="../../System Explorer/SubVIs/convert RegisterMap to FPGA Scalar.vi"/>
-		<Item Name="DMA Settings.vi" Type="VI" URL="../DMA Settings.vi"/>
 		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
-		<Item Name="get fpga resource values for cd group.vi" Type="VI" URL="../get fpga resource values for cd group.vi"/>
-		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
 	</Item>
 </Library>
