@@ -1,0 +1,3 @@
+[submodule "FPGA-Resource-Manager-APIs"]
+	path = FPGA-Resource-Manager-APIs
+	url = https://github.com/tannerblair/FPGA-Resource-Manager-APIs
