@@ -36,10 +36,14 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="FPGA Resource Manager" Type="Folder">
+			<Item Name="FPGA RM System Definition API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/System Definition/FPGA RM System Definition API.lvlib"/>
+			<Item Name="FPGA RM Engine API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/Engine/FPGA RM Engine API.lvlib"/>
+			<Item Name="FPGA RM Shared API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/Shared/FPGA RM Shared API.lvlib"/>
+		</Item>
 		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
 		<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/FPGA Addon System Explorer.lvlib"/>
-		<Item Name="FPGA RM Client API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/FPGA RM Client API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>

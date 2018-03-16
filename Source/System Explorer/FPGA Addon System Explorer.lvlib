@@ -128,6 +128,4 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="get FPGA Resource Info.vi" Type="VI" URL="../SubVIs/get FPGA Resource Info.vi"/>
-	<Item Name="set FPGA Resource Info.vi" Type="VI" URL="../SubVIs/set FPGA Resource Info.vi"/>
 </Library>
