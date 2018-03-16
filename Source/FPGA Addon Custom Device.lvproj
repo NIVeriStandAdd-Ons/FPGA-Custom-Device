@@ -36,7 +36,6 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="FPGA RM Client API.lvlib" Type="Library" URL="../RM Client API/FPGA RM Client API.lvlib"/>
 		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
 		<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/FPGA Addon System Explorer.lvlib"/>
@@ -135,6 +134,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FPGA RM Client API.lvlib" Type="Library" URL="../../../FPGA-Resource-Manager-APIs/Source/FPGA RM Client API.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">

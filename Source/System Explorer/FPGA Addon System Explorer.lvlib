@@ -118,16 +118,6 @@
 				</Item>
 				<Item Name="visualizer globals.vi" Type="VI" URL="../Resource Manager/visualizer globals.vi"/>
 			</Item>
-			<Item Name="Client API" Type="Folder">
-				<Item Name="FPGA resource tree" Type="Folder">
-					<Item Name="get item status.vi" Type="VI" URL="../Resource Manager/Tree/get item status.vi"/>
-					<Item Name="initialize tree.vi" Type="VI" URL="../Resource Manager/Tree/initialize tree.vi"/>
-					<Item Name="reserve or unreserve tree entry.vi" Type="VI" URL="../Resource Manager/Tree/reserve or unreserve tree entry.vi"/>
-					<Item Name="update tree.vi" Type="VI" URL="../Resource Manager/Tree/update tree.vi"/>
-					<Item Name="FPGA Resource Tree.ctl" Type="VI" URL="../Resource Manager/Tree/FPGA Resource Tree.ctl"/>
-					<Item Name="reservation type.ctl" Type="VI" URL="../Resource Manager/reservation type.ctl"/>
-				</Item>
-			</Item>
 			<Item Name="resource management" Type="Folder">
 				<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../Resource Manager/get all FPGA CD resources.vi"/>
 				<Item Name="initialize FPGA Custom Device.vi" Type="VI" URL="../Resource Manager/initialize FPGA Custom Device.vi"/>
@@ -138,4 +128,6 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="get FPGA Resource Info.vi" Type="VI" URL="../SubVIs/get FPGA Resource Info.vi"/>
+	<Item Name="set FPGA Resource Info.vi" Type="VI" URL="../SubVIs/set FPGA Resource Info.vi"/>
 </Library>
