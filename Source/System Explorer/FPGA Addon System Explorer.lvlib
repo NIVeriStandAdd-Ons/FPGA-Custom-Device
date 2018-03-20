@@ -11,6 +11,7 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="fpga resource mappings.vi" Type="VI" URL="../Resource Manager/fpga resource mappings.vi"/>
 				<Item Name="DMA Channel.vi" Type="VI" URL="../DMA Channel.vi"/>
 				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
 				<Item Name="DMA Error.vi" Type="VI" URL="../DMA Error.vi"/>
