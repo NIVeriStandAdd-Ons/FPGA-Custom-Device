@@ -31,6 +31,9 @@
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
+			<Item Name="Glyphs" Type="Folder">
+				<Item Name="fpga group.png" Type="Document" URL="../System Explorer/Glyphs/fpga group.png"/>
+			</Item>
 			<Item Name="Custom Device FPGA Addon.xml" Type="Document" URL="../Custom Device FPGA Addon.xml"/>
 		</Item>
 		<Item Name="Help" Type="Folder" URL="../Help">
@@ -163,7 +166,7 @@
 				<Property Name="Destination[3].destName" Type="Str">XML Location</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{84D14B97-95B2-4944-9DAC-C67D8F51A763}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9CC8AA3F-59E3-4977-AF08-178155B4915D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device FPGA Addon.xml</Property>

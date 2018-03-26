@@ -9,8 +9,11 @@
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
+				<Item Name="FPGAMapping-ActionVIOnDelete.vi" Type="VI" URL="../SubVIs/FPGAMapping-ActionVIOnDelete.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="fpga resource mapping.vi" Type="VI" URL="../Resource Manager/fpga resource mapping.vi"/>
+				<Item Name="fpga resource mappings.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/fpga resource mappings.vi"/>
 				<Item Name="DMA Channel.vi" Type="VI" URL="../DMA Channel.vi"/>
 				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
 				<Item Name="DMA Error.vi" Type="VI" URL="../DMA Error.vi"/>
@@ -119,7 +122,6 @@
 				<Item Name="visualizer globals.vi" Type="VI" URL="../Resource Manager/visualizer globals.vi"/>
 			</Item>
 			<Item Name="resource management" Type="Folder">
-				<Item Name="get all FPGA CD resources.vi" Type="VI" URL="../Resource Manager/get all FPGA CD resources.vi"/>
 				<Item Name="initialize FPGA Custom Device.vi" Type="VI" URL="../Resource Manager/initialize FPGA Custom Device.vi"/>
 				<Item Name="get all FPGA CD references.vi" Type="VI" URL="../Resource Manager/get all FPGA CD references.vi"/>
 			</Item>
@@ -128,4 +130,12 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="show compatible FPGA resources.vi" Type="VI" URL="../SubVIs/show compatible FPGA resources.vi"/>
+	<Item Name="get compatible resources as tree items.vi" Type="VI" URL="../get compatible resources as tree items.vi"/>
+	<Item Name="Update Listbox.vi" Type="VI" URL="../SubVIs/Update Listbox.vi"/>
+	<Item Name="get reservation request info.vi" Type="VI" URL="../SubVIs/get reservation request info.vi"/>
+	<Item Name="get info from tag data.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/get info from tag data.vi"/>
+	<Item Name="get items reserved by this node.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/get items reserved by this node.vi"/>
+	<Item Name="Check FPGA Resource Manager Visualizer Status.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/Check FPGA Resource Manager Visualizer Status.vi"/>
+	<Item Name="Shutdown FPGA Resource Manager Visualizer.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/Shutdown FPGA Resource Manager Visualizer.vi"/>
 </Library>
