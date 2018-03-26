@@ -262,10 +262,10 @@
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
-      <GUID>84952bfcd-bbd3-4c44-aad2-8a2012bb1b51</GUID>
+      <GUID>ce747632-8e6e-4dbf-953b-ac202891f599</GUID>
       <Glyph>
-		  	<Type>To Application Data Dir</Type>
-			  <Path>System Explorer\Glyphs\fpga small.png</Path>
+		  	<Type>To Common Doc Dir</Type>
+			  <Path>Custom Devices\FPGA Addon\Windows\fpga group.png</Path>
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -298,7 +298,59 @@
 			</Documentation>
 		</Button>
 		</ButtonList>
-    </Page>
+	  <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\FPGAMapping-ActionVIOnDelete.vi</Path>
+      </ActionVIOnDelete>
+	</Page>
+	<Page>
+      <Name>
+        <eng>FPGA Resource Mapping</eng>
+        <loc>FPGA Resource Mapping</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>84952bfcd-bbd3-4c44-aad2-8a2012bb1b51</GUID>
+      <Glyph>
+		  	<Type>To Application Data Dir</Type>
+			  <Path>System Explorer\Glyphs\fpga small.png</Path>
+		  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\fpga resource mapping.vi</Path>
+      </Item2Launch>
+	  <ButtonList>
+		<Button>
+			<ID>Open FPGA Resource Manager</ID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\fpga device.png</Path>
+			</Glyph>
+			<Type>Notification</Type>
+			<ReferencedGUID></ReferencedGUID>
+			<ButtonText>
+				<eng></eng>
+				<loc></loc>
+			</ButtonText>
+			<Caption>
+				<eng>Open FPGA Resource Manager</eng>
+				<loc>Open FPGA Resource Manager</loc>
+			</Caption>
+			<TipStrip>
+				<eng>Open FPGA Resource Manager</eng>
+				<loc>Open FPGA Resource Manager</loc>
+			</TipStrip>
+			<Documentation>
+				<eng></eng>
+				<loc></loc>
+			</Documentation>
+		</Button>
+		</ButtonList>
+	  <ActionVIOnDelete>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\FPGAMapping-ActionVIOnDelete.vi</Path>
+      </ActionVIOnDelete>
+	</Page>
     <Page>
       <Name>
         <eng>Scalar Inputs</eng>
