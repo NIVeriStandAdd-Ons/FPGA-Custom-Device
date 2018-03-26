@@ -63,11 +63,11 @@
 			<Item Name="Available Registers FG.vi" Type="VI" URL="../../Shared/Available Registers FG.vi"/>
 			<Item Name="DMA Settings.vi" Type="VI" URL="../../Shared/DMA Settings.vi"/>
 			<Item Name="Scalar Settings.vi" Type="VI" URL="../../Shared/Scalar Settings.vi"/>
+			<Item Name="RegMap to Register Information.vi" Type="VI" URL="../SubVIs/RegMap to Register Information.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../SubVIs/Listbox Cluster.ctl"/>
 			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../SubVIs/Scalar Type Refs.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="get items reserved by this node.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/System Definition/get items reserved by this node.vi"/>
 </Library>
