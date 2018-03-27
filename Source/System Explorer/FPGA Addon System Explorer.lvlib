@@ -27,6 +27,8 @@
 				<Item Name="Waveform Output.vi" Type="VI" URL="../Waveform Output.vi"/>
 				<Item Name="Waveform Outputs.vi" Type="VI" URL="../Waveform Outputs.vi"/>
 				<Item Name="Waveforms.vi" Type="VI" URL="../Waveforms.vi"/>
+				<Item Name="fpga resource mappings.vi" Type="VI" URL="../Resource Manager/fpga resource mappings.vi"/>
+				<Item Name="fpga resource mapping.vi" Type="VI" URL="../Resource Manager/fpga resource mapping.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../SubVIs/EnableDisable Main Page.vi"/>

@@ -41,6 +41,8 @@
 		</Item>
 		<Item Name="FPGA Resource Manager" Type="Folder">
 			<Item Name="FPGA RM Shared API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/Shared/FPGA RM Shared API.lvlib"/>
+			<Item Name="FPGA RM System Definition API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/System Definition/FPGA RM System Definition API.lvlib"/>
+			<Item Name="FPGA RM Engine API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/Engine/FPGA RM Engine API.lvlib"/>
 		</Item>
 		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
@@ -140,7 +142,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FPGA RM System Definition API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/System Definition/FPGA RM System Definition API.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -165,7 +166,7 @@
 				<Property Name="Destination[3].destName" Type="Str">XML Location</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9CC8AA3F-59E3-4977-AF08-178155B4915D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{33B3B814-2BB0-45EB-A98F-D3FADFAE2618}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device FPGA Addon.xml</Property>
@@ -235,7 +236,13 @@
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Help/FPGA Addon.chm</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/Dynamically Called/Extra Pages/fpga resource mappings.vi</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/Dynamically Called/Extra Pages/fpga resource mapping.vi</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -606,6 +613,7 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Data Type.ctl" Type="VI" URL="../Shared/Data Type.ctl"/>
 			<Item Name="FPGA RM Shared API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/Shared/FPGA RM Shared API.lvlib"/>
 			<Item Name="FPGA RM System Definition API.lvlib" Type="Library" URL="../../FPGA-Resource-Manager-APIs/Source/System Definition/FPGA RM System Definition API.lvlib"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
