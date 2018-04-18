@@ -63,7 +63,7 @@
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Available DMA FG.vi" Type="VI" URL="../../Shared/Available DMA FG.vi"/>
 			<Item Name="Available Registers FG.vi" Type="VI" URL="../../Shared/Available Registers FG.vi"/>
-			<Item Name="DMA Settings.vi" Type="VI" URL="../../Shared/DMA Settings.vi"/>
+			<Item Name="DMA Settings.vi" Type="VI" URL="../../../FPGA-Resource-Manager-APIs/Source/Shared/Types/DMA Settings.vi"/>
 			<Item Name="Scalar Settings.vi" Type="VI" URL="../../Shared/Scalar Settings.vi"/>
 			<Item Name="RegMap to Register Information.vi" Type="VI" URL="../SubVIs/RegMap to Register Information.vi"/>
 		</Item>
