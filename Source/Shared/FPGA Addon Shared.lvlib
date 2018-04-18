@@ -4,17 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder">
-			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Compiled.DMASettings.ctl"/>
-			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
-			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
-			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Delacing Scheme.ctl"/>
-			<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../DMA Acquisition Mode.ctl"/>
-			<Item Name="DMA Settings.ctl" Type="VI" URL="../DMA Settings.ctl"/>
-			<Item Name="Register Information.ctl" Type="VI" URL="../Register Information.ctl"/>
-			<Item Name="Scalar Settings.ctl" Type="VI" URL="../Scalar Settings.ctl"/>
-			<Item Name="Scalar Type.ctl" Type="VI" URL="../Scalar Type.ctl"/>
-		</Item>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 	</Item>
 </Library>
