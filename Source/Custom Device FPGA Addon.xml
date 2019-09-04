@@ -532,6 +532,18 @@
               <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Import DMA Channels RTM.vi</Path>
             </Item2Launch>
           </MenuItem>
+         <MenuItem>
+            <GUID>6bbe43e6-ce22-4a4e-9fe7-e4c796103729</GUID>
+            <Type>Action</Type>
+            <Name>
+              <eng>Export DMA Channels</eng>
+              <loc>Export DMA Channels</loc>
+            </Name>
+            <Item2Launch>
+              <Type>To Common Doc Dir</Type>
+              <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Export DMA Channels RTM.vi</Path>
+            </Item2Launch>
+          </MenuItem>
           <MenuItem>
             <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
             <Type>Separator</Type>
