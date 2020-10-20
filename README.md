@@ -1,3 +1,7 @@
+Archived.
+
+Latest: https://github.com/ni/niveristand-fpga-addon-custom-device
+
 FPGA-Addon
 ===================
 
